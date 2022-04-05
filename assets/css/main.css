@@ -2057,3 +2057,30 @@ body {
     -webkit-transition-delay: .16s;
     transition-delay: .16s
 }
+
+#load{
+    background-color: #00060D;
+}
+
+.loading{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    background-color: #00060D;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    opacity: 1;
+    z-index: 14000;
+    transition: opacity 3s linear 1s;
+}
+.loading img{
+    height: 40px;
+    opacity: 1;
+}
+
+#page{
+    display: none;
+}
